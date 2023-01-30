@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="John Doe">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>js review</title>
+	<style>
+		h4{color:red}
+		input {
+			margin-bottom:10px;
+		}
+		label{
+			display:inline-block;
+			width:135px;
+		}
+		.mark,.result-section{
+			width:500px;
+			margin:10px auto;
+			padding:20px;
+			border:1px red solid;
+			text-align:center;	
+			box-shadow:0px 0px 5px 4px #0061ff52;
+		}
+		.mark{box-shadow:0px 0px 5px 4px #6e00ff52}
+	</style>
+</head>
+<body>
+	<section>
+		<div class="mark">
+			<h4>Enter numbers to arrange in decending order</h4>
+			<label for="number1">Enter number1</label>
+			<input id="number1" type="number" value="0"><br>
+			<label for="number2">Enter number2</label>
+			<input id="number2" type="number" value="0"><br>
+			<label for="number3">Enter number3</label>
+			<input id="number3" type="number" value="0"><br>
+			<button id="button" type="button">ok</button>
+			
+		</div>
+		<div class="result-section" id="result-section">
+			<h4>Decending order of numbers is:</h4>
+			<p id="result"></p>
+		</div>
+	</section>
+	
+	<script src="js/main.js"></script>
+			
+</body>
+
+</html>
