@@ -44,4 +44,11 @@ else {
 	}	
 }
 document.getElementById("result-section").style.display="block";
+
+
+document.getElementById("number1").value="";
+document.getElementById("number2").value="";
+document.getElementById("number3").value="";
+
+
 });
